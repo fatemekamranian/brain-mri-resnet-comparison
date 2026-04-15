@@ -23,16 +23,7 @@ The dataset is not included in this repository.
 
 The code assumes the following directory structure:
 
-Training/
-    Glioma/
-    Meningioma/
-    Pituitary/
-    No Tumor/
-Testing/
-    Glioma/
-    Meningioma/
-    Pituitary/
-    No Tumor/
+<pre> ``` Training/ Glioma/ Meningioma/ Pituitary/ No Tumor/ Testing/ Glioma/ Meningioma/ Pituitary/ No Tumor/ ``` </pre>
 
 ## Evaluation
 
@@ -46,9 +37,7 @@ The modified architecture generally shows improved classification performance co
 
 ## Project Structure
 
-notebooks/
-    01_baseline_resnet.ipynb
-    02_proposed_resnet.ipynb
+<pre> ``` notebooks/ 01_baseline_resnet.ipynb 02_proposed_resnet.ipynb ``` </pre>
 
 ## Notes
 
