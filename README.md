@@ -24,15 +24,15 @@ The dataset is not included in this repository.
 The code assumes the following directory structure:
 
 Training/
-Glioma/
-Meningioma/
-Pituitary/
-No Tumor/
+    Glioma/
+    Meningioma/
+    Pituitary/
+    No Tumor/
 Testing/
-Glioma/
-Meningioma/
-Pituitary/
-No Tumor/
+    Glioma/
+    Meningioma/
+    Pituitary/
+    No Tumor/
 
 ## Evaluation
 
@@ -42,13 +42,13 @@ Model performance was evaluated using:
 - confusion matrix
 - training and validation curves
 
-The modified architecture shows a consistent improvement over the baseline model in classification performance.
+The modified architecture generally shows improved classification performance compared to the baseline.
 
 ## Project Structure
 
 notebooks/
-01_baseline_resnet.ipynb
-02_proposed_resnet.ipynb
+    01_baseline_resnet.ipynb
+    02_proposed_resnet.ipynb
 
 ## Notes
 
