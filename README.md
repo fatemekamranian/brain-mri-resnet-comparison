@@ -1,7 +1,6 @@
 # Brain MRI Classification using ResNet-based Models
 
-This project explores a deep learning approach for classifying brain MRI images into four categories:
-Glioma, Meningioma, Pituitary tumor, and No Tumor.
+This project explores a deep learning approach for classifying brain MRI images into four categories: Glioma, Meningioma, Pituitary tumor, and No Tumor.
 
 The main objective was to compare a standard transfer learning setup with a modified architecture and observe how these changes affect model performance.
 
@@ -23,7 +22,16 @@ The dataset is not included in this repository.
 
 The code assumes the following directory structure:
 
-<pre> ``` Training/ Glioma/ Meningioma/ Pituitary/ No Tumor/ Testing/ Glioma/ Meningioma/ Pituitary/ No Tumor/ ``` </pre>
+- Training/
+  - Glioma/
+  - Meningioma/
+  - Pituitary/
+  - No Tumor/
+- Testing/
+  - Glioma/
+  - Meningioma/
+  - Pituitary/
+  - No Tumor/
 
 ## Evaluation
 
@@ -37,7 +45,9 @@ The modified architecture generally shows improved classification performance co
 
 ## Project Structure
 
-<pre> ``` notebooks/ 01_baseline_resnet.ipynb 02_proposed_resnet.ipynb ``` </pre>
+- notebooks/
+  - 01_baseline_resnet.ipynb
+  - 02_proposed_resnet.ipynb
 
 ## Notes
 
